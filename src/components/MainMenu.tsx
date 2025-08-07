@@ -26,14 +26,9 @@ export const MainMenu: React.FC<MainMenuProps> = ({ onNavigate, playerStats }) =
             Play Game
           </button>
 
-          <button
-            onClick={() => onNavigate('settings')}
-            className="w-full bg-gray-600 hover:bg-gray-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors"
-          >
-            <Settings size={16} className="inline mr-2" />
-            Settings
-          </button>
+          
 
+          <a href="https://youtu.be/gNgP9bQSM5s0" className="">
           <button
             onClick={() => onNavigate('tutorial')}
             className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors"
@@ -41,6 +36,7 @@ export const MainMenu: React.FC<MainMenuProps> = ({ onNavigate, playerStats }) =
             <Info size={16} className="inline mr-2" />
             How to Play
           </button>
+          </a>
         </div>
       </div>
     </div>
